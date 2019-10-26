@@ -1,0 +1,37 @@
+<toolSet name="External Tools">
+  <tool name="QtDesigner" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Liuke\AppData\Local\Programs\Python\Python37\Scripts\designer.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="pyuic5" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Liuke\AppData\Local\Programs\Python\Python37\Scripts\pyuic5.exe" />
+      <option name="PARAMETERS" value="$FileName$ -o $FileNameWithoutExtension$.py" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="pyrcc5" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Liuke\AppData\Local\Programs\Python\Python37\Scripts\pyrcc5.exe" />
+      <option name="PARAMETERS" value="$FileName$ -o $FileNameWithoutExtension$_rc.py" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="assitant" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Liuke\AppData\Local\Programs\Python\Python37\Scripts\assistant.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="linguist" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Liuke\AppData\Local\Programs\Python\Python37\Scripts\linguist.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
