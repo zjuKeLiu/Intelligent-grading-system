@@ -10,3 +10,4 @@ Then click the button "test" and the result will show at the buttom.
 
 PS: The model is already trained and stored in the folder final.
     If you want to train your own model, put your pictures in the folder, "data"and run the script train.py.
+    for more details: https://github.com/zjuKeLiu/Intelligent-grading-system/blob/master/documents/Report.pdf.
